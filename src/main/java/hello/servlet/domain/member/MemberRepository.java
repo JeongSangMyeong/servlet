@@ -15,7 +15,7 @@ public class MemberRepository {
 
     private static final MemberRepository instance = new MemberRepository();
 
-    public static MemberRepository getinstance() {
+    public static MemberRepository getInstance() {
         return instance;
     }
 

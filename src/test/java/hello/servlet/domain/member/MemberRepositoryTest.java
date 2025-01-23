@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 public class MemberRepositoryTest {
 
-    MemberRepository memberRepository = MemberRepository.getinstance();
+    MemberRepository memberRepository = MemberRepository.getInstance();
 
     @AfterEach
     void afterEach() {
